@@ -1,7 +1,7 @@
 # Restate problem: Finding the indices of two numbers in a list who's sum equals the target value
 # Clarifying questions: Are the given lists assumed to be sorted?
 # Assumptions: Given lists are assumed UNSORTED. Given lists can vary in sizes. There is only one exact pair for each given list.
-# Think outloud: 
+# Think Outloud: 
 # My function must output the answer pair as a list of indices corresponding to the elements in the given list.
 # At first I thought of the naive solution which would be to use a nested for loop to check every element in the list,
 # and compare one another. But this would not be the best solution due to the runtime resulting in O(n^2).
