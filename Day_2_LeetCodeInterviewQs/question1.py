@@ -22,7 +22,7 @@
 # After finding the solution for this SORTED case, I decided to find a solution for if the given lists were UNSORTED:
 
 def twoSum(nums, target):
-'''ASSUMING GIVEN LIST IS UNSORTED'''
+# '''ASSUMING GIVEN LIST IS UNSORTED'''
     # IF the given list is assumed to be UNSORTED, I would want to use a dictionary to reduce the runtime complexity of my solution.
     # The use of a hashtable would allow me to use only one for loop to compare each element to find the sum ==> O(n)
     index_map = {}
