@@ -17,3 +17,5 @@ c = [1,2, 3, 4, 2, 5]
 print(duplicates(c)) # OUTPUT == True
 d = []
 print(duplicates(d)) # OUTPUT == False
+
+'''I added comments and more test inputs to make the functionality of the solution more clear.'''
