@@ -25,4 +25,19 @@ def conversion(num):
     return word
 
 if __name__ == "__main__":
-    print(conversion(15))
+    # TEST CASES
+    # Pling 3:
+    print("Given 6:", conversion(6)) # Expected output: "Pling"
+    print("Given 24:", conversion(24)) # Expected ouput: "Pling"
+    # Plang 5:
+    print("Given 20:", conversion(20)) # Expected output: "Plang"
+    print("Given 100:", conversion(100)) # Expected output: "Plang"
+    # Plong 7:
+    print("Given 63:", conversion(63)) # Expected output: "Plong"
+    print("Given 77:", conversion(77)) # Expected output: "Plong"
+    # Combinations:
+    print("Given 15:", conversion(15)) # Expected output: "PlingPlang"
+    print("Given 70:", conversion(70)) # Expected output: "PlangPlong"
+    # Given number:
+    print("Given 13:", conversion(13)) # Expected output: "13"
+    print("Given 2:", conversion(2)) # Expected output: "2"

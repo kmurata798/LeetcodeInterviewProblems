@@ -15,8 +15,16 @@ def top_3(scores):
     return scores[:3]
 
 if __name__ == "__main__":
-    scores = [2, 3, 1, 5, 4]
-    print("highest score:", highest(scores))
-    print("scores", scores)
-    print("last_added score:", last_added(scores))
-    print("top_3 scores:", top_3(scores))
+    # TEST CASES
+    # scores = [2, 3, 1, 5, 4]
+    # scores = [250, 320, 112, 569, 440]
+    scores = [380, 491, 722, 830, 209]
+
+    # Get the highest score within the list of scores:
+    print("highest score:", highest(scores)) # Expected score: 830
+
+    # Get the most recently added score in the list of scores:
+    print("last_added score:", last_added(scores)) # Expected score: 209
+
+    # get the 3 highest scores within the list of scores:
+    print("top_3 scores:", top_3(scores)) # Expected score: 830, 722, 491
